@@ -1,3 +1,5 @@
+This repo contains the BI and Frontend assignment. Please find the BI assignment in BUISNESS INTELLIGENCE_BOBBLE_AI.docx
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
