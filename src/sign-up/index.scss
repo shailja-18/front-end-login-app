@@ -1,0 +1,29 @@
+@import '../styles/variables.scss';
+
+.sign-up {
+  margin: 40px auto;
+  width: 40%;
+  box-shadow: $shadow;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+
+  .card-header {
+    text-align: center;
+    margin: 0 0 $spacer-3 0;
+  }
+
+  .sign-up-button {
+    margin-top: $spacer-3;
+  }
+
+  .link {
+    color: $blue;
+    cursor: pointer;
+    margin: 0 $spacer-1;
+  }
+
+  .conditions {
+    font-size: 14px;
+  }
+}

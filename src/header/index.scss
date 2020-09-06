@@ -1,0 +1,8 @@
+@import '../styles/variables.scss';
+
+.header {
+  box-shadow: $shadow;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}

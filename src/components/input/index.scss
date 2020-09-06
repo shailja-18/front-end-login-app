@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.input {
+  border: $border-weight solid $gray;
+  height: $field-height;
+  border-radius: $border-radius-default;
+  padding: $spacer-2;
+}
+
+.input:focus {
+  border: $border-weight solid $blue;
+  outline: none;
+}

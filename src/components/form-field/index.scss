@@ -1,0 +1,7 @@
+@import '../../styles/variables.scss';
+
+.form-field {
+  margin: $spacer-2 0;
+  display: flex;
+  flex-direction: column;
+}

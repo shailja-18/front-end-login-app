@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.button {
+  background: $blue;
+  border: none;
+  box-shadow: $shadow;
+  padding: $spacer-2;
+  height: 35px;
+  border-radius: $border-radius-default;
+  color: white;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:disabled,
+.button[disabled]{
+  opacity: 0.6
+}
